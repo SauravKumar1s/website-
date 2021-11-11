@@ -1,0 +1,97 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+body{
+    background: rgb(229, 229, 235);
+}
+
+nav{
+        position: fixed;
+        top: 3%;
+        left: 0%;
+        right: 0%;
+        width: 100%;
+        /* z-index: 10000;    */
+        display: flex;
+        justify-content: space-between;
+        transition: 0.5s;
+        align-items: center;
+}
+nav ul{
+    margin-right: 120px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 550;
+    color: rgb(90, 90, 90);
+    
+}
+nav ul li a .active {
+    color: brown;
+}
+nav ul li a:hover{
+    color: brown;
+}
+.logo{
+    margin: 0px 70px;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: 800;
+}
+.logo span{
+    color: brown;
+}
+
+
+.text{
+    position: absolute;
+    left: 15%;
+    bottom: 42%;
+}
+.text h2{
+    font-size: 60px;
+    color: brown;
+}
+.text h3{
+    margin:20px 0;
+    font-size: 35px;
+    font-weight: 300;
+}
+.text a{
+    padding: 10px 10px;
+    color: rgb(255, 255, 255);
+    background-color: brown;
+    border-radius: 5px;
+    list-style: none;
+    
+    text-decoration: none;
+}
+.btn{
+    margin: 30px 0;
+    position: absolute;
+    transition: 0.5s;
+    
+}
+.btn:hover{
+    letter-spacing:3px ;
+}
+.active a{
+    color: brown;
+
+}
+section{
+    position: absolute;
+    bottom: 20px;
+    right: 0%;
+}
+section img{
+    width: 90%;
+}
